@@ -1,0 +1,13 @@
+{
+    "files.associations": {
+        "stdlib.h": "c",
+        "string.h": "c",
+        "ipc.h": "c",
+        "unistd.h": "c",
+        "stdio.h": "c",
+        "semaphore.h": "c",
+        "stat.h": "c",
+        "lib.h": "c",
+        "fcntl.h": "c"
+    }
+}

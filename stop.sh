@@ -1,0 +1,2 @@
+killall sender
+killall receiver
