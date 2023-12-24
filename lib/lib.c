@@ -1,10 +1,8 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <unistd.h>
-#include <sys/types.h>
-#include <sys/ipc.h>
-#include <sys/sem.h>
-#include <errno.h>
+#include <semaphore.h>
 #include "lib.h"
 
-
+void SemUnlink(void)
+{
+    sem_unlink(SENDER_SEM_NAME);
+    sem_unlink(RECEIVE_SEM_NAME);
+}
