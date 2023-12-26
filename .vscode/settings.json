@@ -9,6 +9,7 @@
         "stat.h": "c",
         "lib.h": "c",
         "fcntl.h": "c",
-        "mman.h": "c"
+        "mman.h": "c",
+        "sem.h": "c"
     }
 }

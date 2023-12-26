@@ -1,0 +1,7 @@
+1.请先运行server端,否则client端在请求连接时会报错退出
+
+2.每个client端都需要设置自己的通道名CHANNLE_NAME(lib.h)
+
+3.server端的CHANNLE_NAME要与client端一一对应,有几个server就要有几个CHANNLE_NAME
+
+4.发送数据前双方都先open,所有数据发送之后再close
